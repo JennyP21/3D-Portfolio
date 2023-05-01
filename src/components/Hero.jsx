@@ -1,9 +1,16 @@
 import React from 'react'
+import styled from 'styled-components';
+
+const Section = styled.div`
+  height: 100vh;
+  background-color: #11a56c;
+  scroll-snap-align: center;
+`
 
 const Hero = () => {
-    return (
-        <div>Hero</div>
-    )
+  return (
+    <Section>Hero</Section>
+  )
 }
 
 export default Hero;
