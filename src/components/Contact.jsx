@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const Section = styled.div`
   height: 100vh;
-  background-color: #d80b0b;
   scroll-snap-align: center;
 `
 
