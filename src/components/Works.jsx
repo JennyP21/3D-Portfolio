@@ -72,8 +72,6 @@ const Design = styled.div`
   flex: 1;
 `
 
-
-
 const Works = () => {
   return (
     <Section>
