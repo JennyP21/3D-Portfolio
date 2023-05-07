@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Navbar from './Navbar';
+import Navbar from '../Navbar/Navbar';
 import { Canvas } from "@react-three/fiber"
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
 

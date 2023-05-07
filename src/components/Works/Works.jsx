@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import WebDesign from './WebDesign'
-import Development from './Development'
-import ProductDesign from './ProductDesign'
+import WebDesign from './Model Components/WebDesign'
+import Development from './Model Components/Development'
+import ProductDesign from './Model Components/ProductDesign'
+import SocialMedia from './Model Components/SocialMedia'
+import Illustration from './Model Components/Illustration'
 
 const data = [
   "Web Design",
@@ -92,6 +94,10 @@ const Works = () => {
             <WebDesign />
           ) : work === "Development" ? (
             <Development />
+          ) : work === "Social Media" ? (
+            <SocialMedia />
+          ) : work === "Illustration" ? (
+            <Illustration />
           ) : (
             <ProductDesign />
           )}
