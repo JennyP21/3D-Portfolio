@@ -15,10 +15,14 @@ const data = [
 ]
 
 const Section = styled.div`
+  position: relative;
+  color: #000;
   height: 100vh;
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
+  font-size: 14px;
+  font-weight: 300;
 `
 
 const Container = styled.div`
