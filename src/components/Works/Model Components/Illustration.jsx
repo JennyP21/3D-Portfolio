@@ -1,7 +1,7 @@
 import { OrbitControls, Stage } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
-import IPhone from "../3D Models/Iphone"
+import IPhone from "../3D Models/iPhone"
 import styled from 'styled-components'
 
 const Desc = styled.div`
