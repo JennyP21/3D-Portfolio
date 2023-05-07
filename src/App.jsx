@@ -3,7 +3,6 @@ import Hero from "./components/Hero"
 import Who from "./components/Who"
 import Works from "./components/Works"
 import Contact from "./components/Contact"
-import Test from "./components/Test"
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -27,7 +26,6 @@ function App() {
       <Who />
       <Works />
       <Contact />
-      <Test />
     </Container>
   )
 }
