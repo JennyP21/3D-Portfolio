@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls } from '@react-three/drei'
-import Cube from '../Works/3D Models/Cube'
+import Cube from './3D Models/Cube'
 
 const Section = styled.div`
   height: 100vh;

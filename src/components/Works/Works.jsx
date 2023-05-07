@@ -4,7 +4,7 @@ import WebDesign from './Model Components/WebDesign'
 import Development from './Model Components/Development'
 import ProductDesign from './Model Components/ProductDesign'
 import SocialMedia from './Model Components/SocialMedia'
-import Illustration from './Model Components/Illustration'
+import IPhone from './Model Components/Illustration'
 
 const data = [
   "Web Design",
@@ -97,7 +97,7 @@ const Works = () => {
           ) : work === "Social Media" ? (
             <SocialMedia />
           ) : work === "Illustration" ? (
-            <Illustration />
+            <IPhone />
           ) : (
             <ProductDesign />
           )}
