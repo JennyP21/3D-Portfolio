@@ -26,6 +26,6 @@ This project mainly focuses on creating 3D objects using THREE.js. It also uses 
 
 ### Credit
 
-This project was built with the help of Mosh Hamedani in his newest React course.
+This project was built with the help of Lama dev YT Channel.
 
-Link to course site https://codewithmosh.com/
+Link to course site https://www.youtube.com/watch?v=qALsVa-V9qo
