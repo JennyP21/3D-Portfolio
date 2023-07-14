@@ -77,35 +77,16 @@ const Design = styled.div`
 `
 
 const Contact = () => {
-
-  const form = useRef(null);
-  const [success, setSuccess] = useState(false);
-
-  const handleSubmit = e => {
-    e.preventDefault();
-
-    emailjs.sendForm("service_7q2pkax", "template_qjymj2a", form.current, "YFxebhvRrCsqK6l7Y")
-      .then((result) => {
-        console.log(result.text);
-        setSuccess(true);
-      }, (error) => {
-        console.log(error.text);
-        setSuccess(false);
-      });
-
-  };
-
   return (
     <Section id="contact">
       <Container>
         <Content>
-          <Form ref={form} onSubmit={handleSubmit}>
+          <Form onSubmit={(e) => e.preventDefault()}>
             <Title>Contact Us</Title>
             <Input placeholder='Name' name='name' />
             <Input placeholder='Email' name='email' />
             <TextArea placeholder='Write your message' rows={10} name='message' />
             <Button type="submit">Send</Button>
-            {success && "Your message has been sent. We'll get back to you soon :)"}
           </Form>
         </Content>
         <Design>
