@@ -123,7 +123,7 @@ const Img = styled.img`
 
 const Hero = () => {
   return (
-    <Section>
+    <Section id="home">
       <Navbar />
       <Container>
         <Content>

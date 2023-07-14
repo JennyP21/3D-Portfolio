@@ -53,6 +53,11 @@ const Icon = styled.img`
     cursor: pointer;
 `
 
+const Link = styled.a`
+    text-decoration: none;
+    color: #fff;
+`;
+
 const Button = styled.button`
     width: 100px;
     padding: 10px;
@@ -70,10 +75,18 @@ const Navbar = () => {
                 <Links>
                     <Logo src="./img/logo.png" />
                     <List>
-                        <ListItem>Home</ListItem>
-                        <ListItem>Studio</ListItem>
-                        <ListItem>Works</ListItem>
-                        <ListItem>Location</ListItem>
+                        <ListItem>
+                            <Link href='#home'>Home</Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href='#who'>Studio</Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href='#works'>Works</Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href='#contact'>Location</Link>
+                        </ListItem>
                     </List>
                 </Links>
                 <Icons>

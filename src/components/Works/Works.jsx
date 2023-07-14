@@ -100,7 +100,7 @@ const Design = styled.div`
 const Works = () => {
   const [work, setWork] = useState("Web Design");
   return (
-    <Section>
+    <Section id="works">
       <Container>
         <Content>
           <List>
